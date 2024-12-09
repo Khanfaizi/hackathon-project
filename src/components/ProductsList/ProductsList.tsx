@@ -1,4 +1,5 @@
-const ProductsList = ({ product }) => {
+// const ProductsList = ({ product:any }) => {
+  const ProductsList: React.FC = (product:any) => {
     return (
       <div className="border p-4 rounded-md ">
         <img

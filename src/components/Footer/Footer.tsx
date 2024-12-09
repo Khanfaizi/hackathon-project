@@ -33,7 +33,7 @@ function Footer() {
             </div>
 
             {/* Quick Links */}
-            <div className>
+            <div>
               <h3 className="text-lg font-semibold mb-4">Get Help</h3>
               <ul className="space-y-2">
                 <li>
