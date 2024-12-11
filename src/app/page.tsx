@@ -1,3 +1,4 @@
+import { Slider } from "@/components/Footer/Slider/Slider";
 import ProductSlider from "@/components/ProductSlider/ProductSlider";
 import Image from "next/image";
 
@@ -49,6 +50,8 @@ export default function Home() {
         </div>
 
         {/* <ProductSlider/> */}
+
+        <Slider/>
 
         <div className="px-6 mt-10">
           <h2 className="pb-5 text-lg text-black font-bold">Don't Miss</h2>
