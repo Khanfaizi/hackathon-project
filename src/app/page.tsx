@@ -1,4 +1,4 @@
-import { Slider } from "@/components/Footer/Slider/Slider";
+import { Slider } from "@/components/Slider/Slider";
 import ProductSlider from "@/components/ProductSlider/ProductSlider";
 import Image from "next/image";
 
