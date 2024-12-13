@@ -1,5 +1,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
+import Link from "next/link";
+
 import Image from "next/image";
 
 export function Slider() {
@@ -69,7 +71,7 @@ export function Slider() {
                 <div className="p-2">
                   {/* Removed Border */}
                   <div className="overflow-hidden rounded-none">
-                    <div className="relative w-full aspect-square mb-4">
+                    <div className="relative w-[100%] aspect-square mb-4">
                       <Image
                         src={product.image}
                         alt={product.title}
@@ -81,7 +83,7 @@ export function Slider() {
 
                     {/* Product Info */}
                     <div className="text-center">
-                      <h3 className="text-lg font-medium text-gray-800">{product.title}</h3>
+                    <h3 className="text-lg font-medium text-gray-800"><Link href={"/ProductDetail"}>{product.title}</Link></h3>
                       <p className="text-sm text-gray-500">{product.description}</p>
                       <p className="text-lg font-semibold text-gray-900 mt-2">{product.price}</p>
                     </div>
