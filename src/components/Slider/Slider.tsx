@@ -7,19 +7,19 @@ import Image from "next/image";
 export function Slider() {
   const products = [
     {
-      image: "/e1.png",
+      image: "/shoes1.png",
       title: "Nike Air Max Pulse",
       price: "₹ 13,995",
       description: "Women's Shoes",
     },
     {
-      image: "/e2.png",
+      image: "/shoes2.png",
       title: "Nike Air Max Pulse",
       price: "₹ 13,995",
       description: "Men's Shoes",
     },
     {
-      image: "/e3.png",
+      image: "/shoes3.png",
       title: "Nike Air Max 97 SE",
       price: "₹ 16,995",
       description: "Men's Shoes",
@@ -39,7 +39,7 @@ export function Slider() {
   ];
 
   return (
-    <div className="w-full bg-white mt-8 px-6 relative">
+    <div className="w-full bg-white mt-8  relative">
       {/* Slider Title */}
       <h2 className="text-2xl font-bold mb-6 text-gray-900">Best of Air Max</h2>
 
@@ -70,14 +70,14 @@ export function Slider() {
               >
                 <div className="p-2">
                   {/* Removed Border */}
-                  <div className="overflow-hidden rounded-none">
+                  <div className="w-[441.36px] h-[510.36px] overflow-hidden rounded-none">
                     <div className="relative w-[100%] aspect-square mb-4">
                       <Image
                         src={product.image}
                         alt={product.title}
                         layout="fill"
                         objectFit="contain" /* Ensures full image is visible */
-                        className="rounded-none" /* No border or radius */
+                        className="w-[441.36px] h-[441.36px] rounded-none" /* No border or radius */
                       />
                     </div>
 

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 // function Header() {
@@ -31,9 +32,9 @@ import React from "react";
             <a href="#" className="hover:text-black transition">
               Join Us
             </a>
-            <a href="#" className="hover:text-black transition">
+            <Link href="/LoginPage" className="hover:text-black transition">
               Sign In
-            </a>
+            </Link>
           </div>
         </div>
       </div>
