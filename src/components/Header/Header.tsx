@@ -29,9 +29,9 @@ import React from "react";
             <a href="#" className="hover:text-black transition">
               Help
             </a>
-            <a href="#" className="hover:text-black transition">
+            <Link href="/JoinUs" className="hover:text-black transition">
               Join Us
-            </a>
+              </Link>
             <Link href="/LoginPage" className="hover:text-black transition">
               Sign In
             </Link>

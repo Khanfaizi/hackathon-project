@@ -4,8 +4,8 @@ import React from 'react'
 function page() {
   return (
     <div className='flex flex-col justify-center items-center w-[1440px] h-[1173px] top-[96px] '>
-        <div className='flex justify-around w-[1200px] h-[1125px] mt-48'>
-            <div className='w-[653px] h-[653px]'>
+        <div className='lg:flex justify-around w-[1200px] h-[1125px] sm:h-[1500px] mt-48'>
+            <div className='w-[653px] h-[653px] '>
                 <Image
                 src="/Rectangle1.png"
                 width={653}
@@ -13,7 +13,7 @@ function page() {
                 alt='shoes image'
                 />
             </div>
-            <div className='w-[376px] h-[1041px]'>
+            <div className='w-[376px] h-[1041px] '>
                 <h2 className='w-[367px] h-[96px] font-[poppins] font-[500] text-[48px] leading-[48px] text-black'>Nike Air Force 1 
                 PLT.AF.ORM</h2>
 
